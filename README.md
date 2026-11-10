@@ -108,7 +108,7 @@ Two patterns look counter-intuitive and should be read as associations in survey
 
 | | |
 |---|---|
-| ![EDA](figures/eda_prevalence.png) | ![Feature selection](figures/feature_selection.png) |
+| ![EDA](figures/eda_prevalance.png) | ![Feature selection](figures/feature_selection.png) |
 | ![Calibration](figures/calibration.png) | ![Threshold selection](figures/threshold_selection.png) |
 | ![Test performance](figures/test_performance.png) | ![SHAP summary](figures/shap_summary.png) |
 
