@@ -1,6 +1,6 @@
 # Diabetes Risk Classification on CDC BRFSS Health Indicators
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/diabetes_cdc_brfss_v2.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mrinalinijha2002-creator/diabetes-risk-classification-brfss/blob/main/diabetes_cdc_brfss_v2.ipynb)
 
 A machine learning pipeline that estimates diabetes / prediabetes risk from 21 self-reported health, lifestyle and demographic indicators. It covers pre-processing, EDA, feature engineering, feature selection, Bayesian hyperparameter optimization, probability calibration, threshold selection and a subgroup check, on about 230,000 survey respondents.
 
@@ -106,11 +106,20 @@ Two patterns look counter-intuitive and should be read as associations in survey
 
 ## Figures
 
-| | |
-|---|---|
-| ![EDA](figures/eda_prevalance.png) | ![Feature selection](figures/feature_selection.png) |
-| ![Calibration](figures/calibration.png) | ![Threshold selection](figures/threshold_selection.png) |
-| ![Test performance](figures/test_performance.png) | ![SHAP summary](figures/shap_summary.png) |
+<p align="center">
+  <img src="figures/eda_prevelance.png" width="48%">
+  <img src="figures/feature_selection.png" width="48%">
+</p>
+<p align="center">
+  <img src="figures/calibration.png" width="48%">
+  <img src="figures/threshold_selection.png" width="48%">
+</p>
+<p align="center">
+  <img src="figures/test_performance.png" width="96%">
+</p>
+<p align="center">
+  <img src="figures/shap_summary.png" width="60%">
+</p>
 
 ## Limitations
 
